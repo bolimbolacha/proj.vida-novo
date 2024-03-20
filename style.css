@@ -50,17 +50,16 @@ body{
 .botoes.ativo{
     display: block;
 }
-.ativo{
+.ativo {
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
-.aba-conteudo-ativo{
+.aba-contudo-ativo{
     display: block;
 }
-.aba-conteudo{
+.aba-contudo{
     display: none;
 }
-
 .abas-texto{
     background-color: var(--texto-fundo);
     padding: 40px;
@@ -71,9 +70,10 @@ body{
         display: flex;
     }
     .botao:first-child{
-        border-radius: 40px 0 0 0;
+        border-radius:40px 0 0 0;
     }
     .botao:last-child{
         border-radius: 0 40px 0 0;
     }
 }
+    
